@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blue Lock: Web-Based Anime Showcase</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>BLUE LOCK</h1>
+<p>Web-Based Anime Showcase</p>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#characters">Characters</a>
+<a href="#gallery">Gallery</a>
+<a href="#register">Register</a>
+</nav>
+</header>
+
+
+<section id="home">
+
+<div class="banner">
+<img src="blue-lock-banner.jpg">
+</div>
+
+<h2>About Blue Lock</h2>
+
+<p>
+Blue Lock is a football anime where strikers compete to become the best forward
+for Japan’s national team.
+</p>
+
+</section>
+
+
+<section id="characters">
+
+<h2>Main Characters</h2>
+
+<div class="character-grid">
+
+<div class="card">
+<img src="isagi-yoichi.jpg">
+<h3>Yoichi Isagi</h3>
+<p>A striker with exceptional spatial awareness.</p>
+</div>
+
+<div class="card">
+<img src="bachira-meguru.jpg">
+<h3>Meguru Bachira</h3>
+<p>A creative dribbler who plays with instinct.</p>
+</div>
+
+<div class="card">
+<img src="rin-itoshi.jpg">
+<h3>Rin Itoshi</h3>
+<p>A powerful striker with incredible accuracy.</p>
+</div>
+
+<div class="card">
+<img src="shoei-barou.jpg">
+<h3>Shoei Barou</h3>
+<p>An aggressive striker who calls himself the king.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="gallery">
+
+<h2>Blue Lock Gallery</h2>
+
+<div class="gallery">
+
+<img src="team-z.jpg">
+<img src="blue-lock-training.jpg">
+<img src="blue-lock-match.jpg">
+
+</div>
+
+</section>
+
+
+<section id="register">
+
+<h2>Register as a Viewer</h2>
+
+<form id="form">
+
+<input type="text" id="name" placeholder="Enter Name" required>
+
+<input type="email" id="email" placeholder="Enter Email" required>
+
+<select id="character">
+<option>Favorite Character</option>
+<option>Isagi</option>
+<option>Bachira</option>
+<option>Rin</option>
+<option>Barou</option>
+</select>
+
+<input type="number" min="1" max="5" placeholder="Rating (1-5)" id="rating">
+
+<button type="submit">Submit</button>
+
+</form>
+
+<p id="msg"></p>
+
+</section>
+
+
+<footer>
+<p>Blue Lock Anime Showcase | UID Mini Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
